@@ -1,0 +1,80 @@
+.idek {
+  min-height: 90vh;
+  margin-top: 10vh;
+}
+
+.textblack {
+  color: black;
+}
+
+.idek2 {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 90%;
+  z-index: 5;
+  background-color: #E6CCB2;
+  transform: translate(-50%, -50%);
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 4rem 1rem 2rem;
+  z-index: 10;
+  position: relative;
+  background-color: #B5C97F;
+}
+
+.foot {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 4rem 1rem 2rem;
+  z-index: 10;
+  position: relative;
+  background-color: #B5C97F;
+  margin-top: 88vh;
+
+}
+
+.idkigiveup {
+  display: flex;
+  flex-direction: column;
+}
+.sub {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.buttondiv {
+  display: flex;
+  width: 20%;
+  justify-content: space-around;
+  gap: 10%;
+  align-items: center;
+}
+
+.headbutton {
+  width: 100%;
+  height: 50%;
+  background-color: #3F3935;
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.headbutton:hover {
+  background-color: #bc9670;
+  cursor: pointer;
+}
+
+.buycards {
+  height: 100vh;
+  margin-top: 100vh;
+}
